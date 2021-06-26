@@ -5,7 +5,7 @@ function Header(){
     return(
         <header >
           <img src={myImg} alt="pix" style={{height:130}}/>
-          <h3><p>Meme Generator</p></h3>
+          <h3><p>Meme Generator </p></h3>
         </header>
     )
 }
