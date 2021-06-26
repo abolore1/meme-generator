@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Bootstrap/bootstrap/css/bootstrap.min.css'
 
+
 class MemeGenerator extends Component {
     //using this instead of constructor
     state = {
@@ -28,7 +29,9 @@ class MemeGenerator extends Component {
         const randNum = Math.floor(Math.random() * this.state.allMemeImgs.length)
         const allRanMeme = this.state.allMemeImgs[randNum].url
         this.setState({randomImg:allRanMeme})
+        // eslint-disable-next-line
         this.state.topText = ''
+        // eslint-disable-next-line
         this.state.bottomText = ''
     }
 
