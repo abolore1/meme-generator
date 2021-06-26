@@ -1,14 +1,13 @@
 import React from 'react';
-import myImg from 'Trollface.png';
 
 function Header(){
+  const myImg = "http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png"
     return(
         <header >
           <img src={myImg} alt="pix" style={{height:130}}/>
-          <h3><p>Meme Generator </p></h3>
+          <h3><p>Meme Generator</p></h3>
         </header>
     )
 }
 
 export default Header
-
