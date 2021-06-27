@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Header(){
-  const myImg = "http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png"
+  const myImg = "http://www.pngall.com/wp-content/uploads/2016/05/Trollface.PNG"
     return(
         <header >
           <img src={myImg} alt="pix" style={{height:130}}/>
